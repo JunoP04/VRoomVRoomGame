@@ -22,6 +22,8 @@ public class Reload : MonoBehaviour
             arrowPlaceholderCollider.enabled = false;
             other.attachedRigidbody.useGravity = false;
             other.attachedRigidbody.isKinematic = true;
+
+            other.GetComponent<DetachObjectFromHand>().DoDetach();
             MoveArrow(other.transform);
         }
     }
