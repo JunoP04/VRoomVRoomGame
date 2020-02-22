@@ -55,6 +55,11 @@
       "requirement": "mandatory"
     },
     {
+      "name": "/actions/default/in/Jump",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
