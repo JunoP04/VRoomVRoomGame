@@ -35,5 +35,8 @@ public class Reload : MonoBehaviour
             float step = 0.02f * Time.deltaTime;
             arrow.position = Vector3.MoveTowards(arrow.position, arrowPlaceholder.position, step);
         }
+        arrow.GetComponent<Rigidbody>().useGravity = true;
+        arrow.GetComponent<Rigidbody>().useGravity = false;
+
     }
 }
