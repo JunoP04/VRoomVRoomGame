@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isJumping = false;
     public float speed = 2;
     public float gravity = -9.81f;
+    private float jumpDif = 4f;
     [SerializeField]private CharacterController characterController;
 
     void Start()
@@ -27,15 +28,15 @@ public class PlayerMovement : MonoBehaviour
         if (jump.state == true && isJumping == false)
         {
             isJumping = true;
-            gravity = -gravity;
             StartCoroutine(Jumping());
         }
     }
 
     IEnumerator Jumping()
     {
+        gravity = -gravity - jumpDif;
         yield return new WaitForSeconds(0.3f);
-        gravity = -gravity;
+        gravity = -gravity - jumpDif;
     }
 
 
