@@ -102,7 +102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e8eabf7f7692549916102f0175ad3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canAtt: 0
   Speed: 5
+  newmat: {fileID: 0}
   rotSpeed: 300
 --- !u!1 &6501544999374542977
 GameObject:
