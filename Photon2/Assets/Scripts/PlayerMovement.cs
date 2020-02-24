@@ -74,9 +74,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0) && canAtt)
         {
             GameObject proj = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Bullet"), (transform.position + playerForward * 2f), Quaternion.identity);
-            proj.GetComponent<MeshRenderer>().material = GetComponentInChildren<MeshRenderer>().material;
+            proj.GetComponent<MeshRenderer>().material = newmat;
+            Debug.Log(proj.GetComponent<MeshRenderer>().material);
             proj.GetComponent<Rigidbody>().AddForce(transform.position + playerForward* 500);
-            proj.GetPhotonView().RPC("displayCol", RpcTarget.AllBuffered);
+            PV.RPC("displayCol", RpcTarget.All);
+            //proj.GetPhotonView().RPC("displayCol", RpcTarget.AllBuffered);
             canAtt = false;
             StartCoroutine(attackDelay());
         }
