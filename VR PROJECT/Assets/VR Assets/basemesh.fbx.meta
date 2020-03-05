@@ -6,7 +6,27 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ely-vanguardsoldier-kerwinatienza_diffuse
+    second: {fileID: 2800000, guid: 13ed4a0ae54b41449a93b92a1a2a764c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ely-vanguardsoldier-kerwinatienza_glow
+    second: {fileID: 2800000, guid: 37288daf9add03343b7660c2a59e8190, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ely-vanguardsoldier-kerwinatienza_normal
+    second: {fileID: 2800000, guid: d218fa2d44253b24d83e5207681cf092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ely-vanguardsoldier-kerwinatienza_specular
+    second: {fileID: 2800000, guid: 645bd82688bea4542b4cb29a9298b2cd, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
