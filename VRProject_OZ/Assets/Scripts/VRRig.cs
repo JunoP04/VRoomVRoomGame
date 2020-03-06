@@ -10,6 +10,7 @@ public class VRMap
     public Vector3 trackingPositionOffset;
     public Vector3 trackingRotationOffset;
 
+
     public void Map()
     {
         rigTarget.position = vrTarget.TransformPoint(trackingPositionOffset);
@@ -31,14 +32,14 @@ public class VRRig : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position = headConstraint.position + headBodyOffset;
         transform.forward = Vector3.ProjectOnPlane(headConstraint.up, Vector3.up).normalized;
 
-        head.Map();
         leftHand.Map();
         rightHand.Map();
+        head.Map();
 
     }
 }

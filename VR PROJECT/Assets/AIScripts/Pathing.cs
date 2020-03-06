@@ -30,7 +30,7 @@ public class Pathing : MonoBehaviour
         {
             randomPoint = Random.Range(0, waypoints.Count);
             currentPoint = randomPoint;
-            Debug.Log(randomPoint);
+           // Debug.Log(randomPoint);
 
             StartCoroutine(lookAroundRandomly());
         }
@@ -75,6 +75,7 @@ public class Pathing : MonoBehaviour
     {
         
         int randomTime = Random.Range(0, 4);
+        Debug.Log(randomTime);
         yield return new WaitForSeconds(randomTime);
         
         agent.SetDestination(waypoints[currentPoint].position);
