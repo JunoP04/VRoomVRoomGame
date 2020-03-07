@@ -357,6 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 14064805}
   waypoints:
   - {fileID: 685337109}
@@ -394,6 +395,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!4 &15138894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3372438568630254030, guid: 2479988693d44bf4cb780e0609f635cc,
@@ -524,6 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 64788985}
   waypoints:
   - {fileID: 685337109}
@@ -561,6 +565,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &65076278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 112580096}
   waypoints:
   - {fileID: 685337109}
@@ -1259,6 +1266,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &114634326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3075,6 +3084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 261531093}
   waypoints:
   - {fileID: 685337109}
@@ -3112,6 +3122,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &263855001
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,6 +4254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 386332391}
   waypoints:
   - {fileID: 685337109}
@@ -4279,6 +4292,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &388626386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4937,6 +4952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 442806336}
   waypoints:
   - {fileID: 685337109}
@@ -4974,6 +4990,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!4 &452506777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3372438568630254030, guid: 2479988693d44bf4cb780e0609f635cc,
@@ -7447,6 +7465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 731850949}
   waypoints:
   - {fileID: 685337109}
@@ -7484,6 +7503,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &733138103
 GameObject:
   m_ObjectHideFlags: 0
@@ -7565,6 +7586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 734902757}
   waypoints:
   - {fileID: 685337109}
@@ -7602,6 +7624,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &748598935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7738,6 +7762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 756764339}
   waypoints:
   - {fileID: 685337109}
@@ -7775,6 +7800,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &762197191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7928,6 +7955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 775486230}
   waypoints:
   - {fileID: 685337109}
@@ -7965,6 +7993,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &775768431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8939,6 +8969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 858974568}
   waypoints:
   - {fileID: 685337109}
@@ -8976,6 +9007,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &879320670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10058,6 +10091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 968382517}
   waypoints:
   - {fileID: 685337109}
@@ -10095,6 +10129,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &969409445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12762,6 +12798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 1224826627}
   waypoints:
   - {fileID: 685337109}
@@ -12799,6 +12836,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &1244776239
 GameObject:
   m_ObjectHideFlags: 0
@@ -14256,6 +14295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 1376697225}
   waypoints:
   - {fileID: 685337109}
@@ -14293,6 +14333,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &1378394738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14423,6 +14465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 1379713680}
   waypoints:
   - {fileID: 273509588}
@@ -14433,6 +14476,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1001 &1381483821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15191,6 +15236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 1463771595}
   waypoints:
   - {fileID: 685337109}
@@ -15228,6 +15274,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &1467869295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8530238078515798988, guid: b3a38466537ca8143bd6ac33b8cec54a,
@@ -18664,6 +18712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 1860968183}
   waypoints:
   - {fileID: 685337109}
@@ -18701,6 +18750,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &1866543705
 GameObject:
   m_ObjectHideFlags: 0
@@ -19088,6 +19139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 1931153135}
   waypoints:
   - {fileID: 685337109}
@@ -19125,6 +19177,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &1937418191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1608576726065413962, guid: b3a38466537ca8143bd6ac33b8cec54a,
@@ -20126,6 +20180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c9a8be090f20c459880c7285e05c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
   agent: {fileID: 2030374188}
   waypoints:
   - {fileID: 685337109}
@@ -20163,6 +20218,8 @@ MonoBehaviour:
   distanceBetween: 2.5
   abandonTime: 0
   distanceCheck: 0
+  enemyType: 
+  speed: 0
 --- !u!1 &2030999740
 GameObject:
   m_ObjectHideFlags: 0
